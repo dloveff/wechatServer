@@ -51,9 +51,11 @@ urlPatterns:
  - event_click 点击菜单拉取消息时的事件推送
  - event_view  点击菜单跳转链接时的事件推送
  - event_templatesendjobfinish 模板消息发送状态事件
- 
- 接收语音识别消息
+
+接收语音识别消息
+
  - recognition_voice 语音消息以及语音识别消息
+
 
 ```
 msg_handler:
