@@ -11,13 +11,13 @@ DEBUG = True
 TOKEN = "cHtG2014wQ"
 
 #AES 密钥
-AESKEY = "akpAwi1oDIxhqPTbJzRadzxLdJGeJw1keDO9YnK6Sr5"
+AESKEY = ""
 
 #APP ID KEY
-APPID = "wx088d3771f8ed2a91"
+APPID = ""
 
 #APP SECRET KEY
-APPSECRET = "1753b7f71c3f8991cb0230cee47da635"
+APPSECRET = ""
 
 #web配置文件
 WEB_CONFIG_FILE = "config/web.yaml"
