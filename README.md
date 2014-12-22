@@ -17,6 +17,7 @@ wechatServer
 web.yaml记录tornado的handler与url的映射.
 msg.yaml记录不同的message对应的不同的响应方式.
 
+微信相关参数配置文件为wxplatform/setting.py,比如用于微信开发的APPID等
 
 ###网页配置举例
 
