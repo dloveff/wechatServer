@@ -1,0 +1,9 @@
+urlPatterns:
+- handler: wxplatform.web.WXInterfaceHandler.WXInterfaceHandler
+  url: /
+
+- handler: wxplatform.web.AlvinTestHandler.TestHandler
+  url: /test
+
+- handler: wxplatform.web.AlvinTestHandler.TokenHandler
+  url: /token

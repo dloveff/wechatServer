@@ -1,0 +1,15 @@
+welcome_msg: |
+  欢迎关注车伯通微信号!
+
+msg_handler:
+  receive_text:
+    1: #关键字
+      classes: wxplatform.text.1
+      reply_class: wxplatform.text.1
+    11:
+      classes: wxplatform.text.11
+      reply_class: wxplatform.text.11
+  receive_image:
+    2:
+      classes: wxplatform.text.2
+      reply_class: wxplatform.text.2

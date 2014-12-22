@@ -1,0 +1,110 @@
+#receive_text 文本
+#receive_image 图片
+#receive_video 视频
+#receive_location 位置
+#receive_link 链接
+#
+#event_subscribe 关注或者未关注而扫描二维码且关注
+#event_unsubscribe 取消关注
+#event_scan 扫描二维码
+#event_location 上报地理位置
+#event_click 点击菜单拉取消息时的事件推送
+#event_view  点击菜单跳转链接时的事件推送
+#event_templatesendjobfinish 模板消息发送状态事件
+#
+#recognition_voice 语音消息以及语音识别消息
+
+
+
+
+
+welcome_msg: |
+  欢迎!
+
+default_handler:
+  classes: wxplatform.MessageManage.TextMessageHandler
+  content: |
+      Welcome my friend.
+
+msg_handler:
+  receive_text:
+    "1": #关键字
+      classes: wxplatform.MessageManage.TextMessageHandler
+      content: hello 1
+    "2":
+      classes: wxplatform.MessageManage.NewsMessageHandler
+      content:
+          - title: hello 1
+            description: just a test 1
+            picUrl: http://wx.cheertong.com/img/tongtong.jpg
+            url: http://www.baidu.com
+          - title: hello 2
+            description: just a test 2
+            picUrl: http://wx.cheertong.com/img/tongtong.jpg
+            url: http://www.baidu.com
+#  receive_image:
+#    2:
+#      classes: [wxplatform.text.2]
+#      reply_msg: hello
+#      reply_class: wxplatform.text.2
+#  receive_video:
+#    2:
+#      classes: wxplatform.text.2
+#      reply_msg: hello
+#      reply_class: wxplatform.text.2
+#  receive_location:
+#    2:
+#      classes: wxplatform.text.2
+#      reply_msg: hello
+#      reply_class: wxplatform.text.2
+#  receive_link:
+#    2:
+#      classes: wxplatform.text.2
+#      reply_msg: hello
+#      reply_class: wxplatform.text.2
+#  event_subscribe:
+#    2:
+#      classes: wxplatform.text.2
+#      reply_msg: hello
+#      reply_class: wxplatform.text.2
+#  event_unsubscribe:
+#    2:
+#      classes: wxplatform.text.2
+#      reply_msg: hello
+#      reply_class: wxplatform.text.2
+#  event_scan:
+#    2:
+#      classes: wxplatform.text.2
+#      reply_msg: hello
+#      reply_class: wxplatform.text.2
+#  event_location:
+#    2:
+#      classes: wxplatform.text.2
+#      reply_msg: hello
+#      reply_class: wxplatform.text.2
+#  event_click:
+#    2:
+#      classes: wxplatform.text.2
+#      reply_msg: hello
+#      reply_class: wxplatform.text.2
+#  event_view:
+#    2:
+#      classes: wxplatform.text.2
+#      reply_msg: hello
+#      reply_class: wxplatform.text.2
+#  event_templatesendjobfinish:
+#    2:
+#      classes: wxplatform.text.2
+#      reply_msg: hello
+#      reply_class: wxplatform.text.2
+  recognition_voice:
+    "0":
+      classes: wxplatform.MessageManage.TextMessageHandler
+      content: hello 1
+    "我":
+      classes: wxplatform.MessageManage.TextMessageHandler
+      content: 我
+
+
+
+
