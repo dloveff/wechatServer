@@ -1,9 +1,0 @@
-urlPatterns:
-- handler: platform.web.WXInterfaceHandler.WXInterfaceHandler
-  url: /
-
-- handler: platform.web.AlvinTestHandler.TestHandler
-  url: /test
-
-- handler: platform.web.AlvinTestHandler.TokenHandler
-  url: /token
