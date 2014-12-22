@@ -8,16 +8,16 @@ __author__ = 'alvinli'
 DEBUG = True
 
 # 微信token参数
-TOKEN = "gaosanyiban2007"  # "cHtG2014wQ"
+TOKEN = "" 
 
 # AES 密钥
-AESKEY = "HoMIsqaYlhsZLyDDXztfk8I2uPNTZGPfKzFuj6VlrVv"  # "akpAwi1oDIxhqPTbJzRadzxLdJGeJw1keDO9YnK6Sr5"
+AESKEY = ""  
 
 # APP ID KEY
-APPID = "wx76a8945d1b1e830f"  #"wx088d3771f8ed2a91"
+APPID = "" 
 
 #APP SECRET KEY
-APPSECRET = "07a2acfac5318b5b85068dbd66512835"  #"1753b7f71c3f8991cb0230cee47da635"
+APPSECRET = "" 
 
 #web配置文件
 WEB_CONFIG_FILE = "config/web.yaml"
